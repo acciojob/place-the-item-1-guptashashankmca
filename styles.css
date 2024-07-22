@@ -1,2 +1,12 @@
-
-/* Your CSS Code here. */
+.item{
+	display:flex;
+	list-style:none;
+	padding:50px;
+	margin:50px;
+	justify-content:space-between;
+	justify-items:star;
+	flex-wrap:flex;
+	text-align:start;
+	font-size:50px;	
+	flex-direction:row-reverse;
+}
