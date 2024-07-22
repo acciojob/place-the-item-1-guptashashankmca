@@ -1,12 +1,19 @@
-.item{
+.holder{
 	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	flex-direction:row-reverse;
+	justify-content:center;
+	flex-direction:row;
+}
+.item{
 	list-style:none;
 	padding:50px;
 	margin:50px;
 	justify-content:space-between;
-	justify-items:star;
+	justify-items:start;
 	flex-wrap:flex;
 	text-align:start;
 	font-size:50px;	
-	flex-direction:row-reverse;
+	
 }
